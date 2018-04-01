@@ -1,0 +1,248 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using System;
+public class Gei_data
+{
+	public string name;
+	public int len;
+	public ArrayList note;
+	public Gei_data()
+	{
+		note=new ArrayList();
+	}
+}
+public class Note_data
+{
+	public int flag;
+	public int type;
+	public int pos;
+	public int len;
+
+}
+public class NoteGenMan : MonoBehaviour {
+	public float dt,pt;
+	public int bpm,beatCount,pn,pg,bn;
+	public static int GEN_COUNT=4;
+	public float speed;
+	public ArrayList gens,map,gei;
+	// Use this for initialization
+	void Start () {
+		pt=Time.time;
+		pn=0;
+		pg=0;
+		bn=4;
+		beatCount=0;
+
+		gens=new ArrayList();
+		for(int i=0;i<GEN_COUNT;i++)
+		{
+			NoteGen s=GameObject.Find("Stream"+i).GetComponentInChildren<NoteGen>();
+			s.speed=this.speed;
+			gens.Add(s);
+		}
+//		foreach(NoteGen g in gens)
+//		{
+//			g.hello();
+//		}
+		bool isStart=true;
+		ArrayList info=LoadFile(Application.dataPath+"/MUG","¼¼±í.txt");
+		gei=new ArrayList();
+		Gei_data t_gei=new Gei_data();
+		foreach (string str in info)
+		{
+			//Debug.Log(str);
+			if(str.Length>0&&str[0]=='/')
+			{
+			}else if(isStart)
+			{
+				if(str.Length>0)
+				{
+					//Debug.Log(str);
+					t_gei=new Gei_data();
+					isStart=false;
+					t_gei.name=str;
+				}
+			}else{
+				if(str.Length<1)
+				{
+					gei.Add(t_gei);
+					isStart=true;
+				}else{
+					string t=str;
+					string[] temp=t.Split(new char[]{' '});
+					if(temp.Length==4)
+					{
+						Note_data nd=new Note_data();
+						nd.flag=int.Parse(temp[0]);
+						nd.type=int.Parse(temp[1]);
+						nd.pos=int.Parse(temp[2]);
+						nd.len=int.Parse(temp[3]);
+						t_gei.note.Add(nd);
+					}else if(temp.Length==3)
+					{
+						Note_data nd=new Note_data();
+						nd.flag=int.Parse(temp[0]);
+						nd.type=int.Parse(temp[1]);
+						nd.pos=int.Parse(temp[2]);
+						t_gei.note.Add(nd);						
+					}else if(temp.Length==1)
+					{
+						t_gei.len=int.Parse(str);
+					}
+				}
+			}
+		}
+//		foreach(Gei_data g in gei)
+//		{
+//			Debug.Log(g.name);
+//			Debug.Log(g.len);
+//			Debug.Log(g.note.Count);
+//			foreach(Note_data n in g.note)
+//			{
+//				Debug.Log(n.flag);
+//				Debug.Log(n.type);
+//				Debug.Log(n.pos);
+//				if(n.type==1)
+//					Debug.Log(n.len);
+//				Debug.Log('\n');
+//			}
+//			Debug.Log('\n');
+//			Debug.Log('\n');
+//		}
+//
+
+
+
+
+		//map loading
+		info=LoadFile(Application.dataPath+"/MUG","Æ×.txt");
+		bool isFirst=true;
+		map=new ArrayList();
+
+		foreach(string str in info)
+		{
+			
+//			Debug.Log(str);
+			if(str.Length>0&&str[0]=='/')
+			{}else{
+				if(isFirst)
+				{
+
+					bpm=int.Parse(str);
+					isFirst=false;
+				}else{
+					map.Add(int.Parse(str));
+				}
+			}
+		}
+//		Debug.Log(bpm);
+//		foreach(int num in map)
+//		{
+//			Debug.Log(num);
+//		}
+		dt=60f/bpm;
+		InvokeRepeating("UpdateNote",0,dt);
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		if(pg<map.Count)
+		{
+//			if(Time.time-pt>=dt)
+//			{
+//			//Debug.Log("UPDate");
+//
+//				UpdateNote();
+//				pt=Time.time;
+//			}
+
+		}else{
+			CancelInvoke();
+		}
+	}
+
+
+
+	void UpdateNote()
+	{
+		//Debug.Log("UPDate");
+//		Gei_data tmp=(Gei_data)(gei[(int)(map[pg])]);
+//		if(bn>=(tmp.len))
+//		{
+//			bn=0;
+//			pg++;
+//			pn=0;
+//		}else{
+//			if(pn<tmp.note.Count)
+//			{
+//				int temp=((Note_data)(tmp.note[pn])).flag;
+//				Note_data t;
+//				if(temp==bn)
+//				{
+//					while(pn<tmp.note.Count&&(t=((Note_data)(tmp.note[pn]))).flag==temp)
+//					{
+//						if(t.type==1)
+//						{
+//							((NoteGen)(gens[t.pos])).genNote(t.type,dt*t.len);
+//						}else{
+//							((NoteGen)(gens[t.pos])).genNote(t.type);
+//						}
+//						pn++;
+//					}
+//				}
+//			}
+//			bn++;
+//		}
+		Gei_data tmp=(Gei_data)(gei[(int)(map[pg])]);
+		if(bn>=(tmp.len))
+		{
+			bn=0;
+			pg++;
+			pn=0;
+		}
+		tmp=(Gei_data)(gei[(int)(map[pg])]);
+			if(pn<tmp.note.Count)
+			{
+				int temp=((Note_data)(tmp.note[pn])).flag;
+				Note_data t;
+				if(temp==bn)
+				{
+					while(pn<tmp.note.Count&&(t=((Note_data)(tmp.note[pn]))).flag==temp)
+					{
+						if(t.type==1)
+						{
+							((NoteGen)(gens[t.pos])).genNote(t.type,dt*t.len);
+						}else{
+							((NoteGen)(gens[t.pos])).genNote(t.type);
+						}
+						pn++;
+					}
+				}
+			}
+			bn++;
+
+	}
+	ArrayList LoadFile(string path,string name)
+	{
+		StreamReader sr=null;
+		try{
+			sr=File.OpenText(path+"//"+name);
+		}catch(Exception e)
+		{
+			Debug.Log(Application.dataPath);
+			Debug.Log("Load failed");
+			return null;
+		}
+		string line;
+		ArrayList arrlist=new ArrayList();
+		while((line=sr.ReadLine())!=null)
+		{
+			arrlist.Add(line);
+		}
+		sr.Close();
+		sr.Dispose();
+		return arrlist;
+	}
+}

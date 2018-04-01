@@ -1,0 +1,1121 @@
+fileFormatVersion: 2
+guid: bcbc686a1d8bfff449989d9b9b2383c8
+timeCreated: 1479397196
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Awning Frame 01
+    100002: Awning Frame 02
+    100004: Awning Frame 03
+    100006: Awning Frame 04
+    100008: Awning Frame 05
+    100010: Awning Frame 06
+    100012: Awning Sheet Metal 01
+    100014: Awning Sheet Metal 02
+    100016: Awning Sheet Metal 03
+    100018: Awning Sheet Metal 04
+    100020: Awning Sheet Metal 05
+    100022: Back Fill Light
+    100024: Bldg_Base
+    100026: Box10
+    100028: Box11
+    100030: Box12
+    100032: Box13
+    100034: Box14
+    100036: Box15
+    100038: Box16
+    100040: Box17
+    100042: Box18
+    100044: Box19
+    100046: Box20
+    100048: Box21
+    100050: Box22
+    100052: Box23
+    100054: Box24
+    100056: Box25
+    100058: Building Walls
+    100060: Cactus
+    100062: Cactus01
+    100064: Cactus02
+    100066: Cactus03
+    100068: Camera01
+    100070: Camera01.Target
+    100072: Circle01
+    100074: Door
+    100076: Flashing
+    100078: Gas Pump Base
+    100080: Gas Pump Base 01
+    100082: Gas Pump Island
+    100084: Gas Pump Sign
+    100086: Gas Pump Sign 01
+    100088: Gas Pump Top
+    100090: Gas Pump Top 01
+    100092: gd01
+    100094: gd02
+    100096: gd03
+    100098: gd04
+    100100: gd05
+    100102: gd06
+    100104: gd07
+    100106: gd08
+    100108: Glass01
+    100110: Glass02
+    100112: Glass03
+    100114: Glass04
+    100116: Glass05
+    100118: Glass06
+    100120: Glass07
+    100122: Glass08
+    100124: Glass09 plywood
+    100126: Grass building side
+    100128: Grass other side of building
+    100130: Grass02
+    100132: Grass03
+    100134: Grass04
+    100136: Grass05
+    100138: Grass06
+    100140: Grass07
+    100142: Grass08
+    100144: Grass09
+    100146: Grass10
+    100148: Grass100
+    100150: Grass101
+    100152: Grass102
+    100154: Grass11
+    100156: Grass12
+    100158: Grass13
+    100160: Grass14
+    100162: Grass15
+    100164: Grass153
+    100166: Grass154
+    100168: Grass16
+    100170: Grass17
+    100172: Grass18
+    100174: Grass19
+    100176: Grass20
+    100178: Grass21
+    100180: Grass22
+    100182: Grass23
+    100184: Grass24
+    100186: Grass25
+    100188: Grass26
+    100190: Grass27
+    100192: Grass28
+    100194: Grass29
+    100196: Grass30
+    100198: Grass31
+    100200: Grass32
+    100202: Grass33
+    100204: Grass34
+    100206: Grass35
+    100208: Grass36
+    100210: Grass37
+    100212: Grass38
+    100214: Grass39
+    100216: Grass40
+    100218: Grass41
+    100220: Grass42
+    100222: Grass43
+    100224: Grass44
+    100226: Grass45
+    100228: Grass46
+    100230: Grass47
+    100232: Grass48
+    100234: Grass49
+    100236: Grass50
+    100238: Grass51
+    100240: Grass52
+    100242: Grass53
+    100244: Grass54
+    100246: Grass55
+    100248: Grass56
+    100250: Grass57
+    100252: Grass58
+    100254: Grass59
+    100256: Grass60
+    100258: Grass61
+    100260: Grass62
+    100262: Grass63
+    100264: Grass64
+    100266: Grass65
+    100268: Grass66
+    100270: Grass67
+    100272: Grass68
+    100274: Grass69
+    100276: Grass70
+    100278: Grass71
+    100280: Grass72
+    100282: Grass73
+    100284: Grass74
+    100286: Grass75
+    100288: Grass76
+    100290: Grass77
+    100292: Grass78
+    100294: Grass79
+    100296: Grass80
+    100298: Grass81
+    100300: Grass82
+    100302: Grass83
+    100304: Grass84
+    100306: Grass85
+    100308: Grass86
+    100310: Grass87
+    100312: Grass88
+    100314: Grass89
+    100316: Grass90
+    100318: Grass91
+    100320: Grass92
+    100322: Grass93
+    100324: Grass94
+    100326: Grass95
+    100328: Grass96
+    100330: Grass97
+    100332: Grass98
+    100334: Grass99
+    100336: Ground
+    100338: Light Pole
+    100340: Light Pole Arm 01
+    100342: Light Pole Arm 02
+    100344: Light Pole Base
+    100346: Lights
+    100348: Lights 01
+    100350: Line for Awning
+    100352: Line01
+    100354: Line02
+    100356: Line03
+    100358: Main Light
+    100360: Oil Can
+    100362: Oil Can01
+    100364: Oil Can02
+    100366: Oil Can03
+    100368: Oil Can04
+    100370: Oil Disp Base
+    100372: Oil Disp Container
+    100374: Oil Disp Rack
+    100376: Oil Disp Side
+    100378: Oil Disp Side 01
+    100380: Parking
+    100382: Profile for Curbs
+    100384: Profile Island Path
+    100386: Road
+    100388: Roof_High
+    100390: Roof_Low
+    100392: //RootNode
+    100394: Shape for sheet metal
+    100396: Side Fill Light
+    100398: Sign Base
+    100400: Sign Lamp
+    100402: Sign Lamp Light
+    100404: Sign Last Gasp
+    100406: Sign Post
+    100408: Sign Post Hanger
+    100410: Sign Post Sphere
+    100412: Sketch Plan
+    100414: Sky
+    100416: Tire on Rack
+    100418: Tire on Rack01
+    100420: Tire on Rack02
+    100422: Tire Rack Bars
+    100424: Tire Rack Right
+    100426: Tire Rack Right01
+    100428: Transom Frame
+    100430: Tumbleweed01
+    100432: Tumbleweed02
+    100434: Water Tower Top
+    100436: Window Frame
+    400000: Awning Frame 01
+    400002: Awning Frame 02
+    400004: Awning Frame 03
+    400006: Awning Frame 04
+    400008: Awning Frame 05
+    400010: Awning Frame 06
+    400012: Awning Sheet Metal 01
+    400014: Awning Sheet Metal 02
+    400016: Awning Sheet Metal 03
+    400018: Awning Sheet Metal 04
+    400020: Awning Sheet Metal 05
+    400022: Back Fill Light
+    400024: Bldg_Base
+    400026: Box10
+    400028: Box11
+    400030: Box12
+    400032: Box13
+    400034: Box14
+    400036: Box15
+    400038: Box16
+    400040: Box17
+    400042: Box18
+    400044: Box19
+    400046: Box20
+    400048: Box21
+    400050: Box22
+    400052: Box23
+    400054: Box24
+    400056: Box25
+    400058: Building Walls
+    400060: Cactus
+    400062: Cactus01
+    400064: Cactus02
+    400066: Cactus03
+    400068: Camera01
+    400070: Camera01.Target
+    400072: Circle01
+    400074: Door
+    400076: Flashing
+    400078: Gas Pump Base
+    400080: Gas Pump Base 01
+    400082: Gas Pump Island
+    400084: Gas Pump Sign
+    400086: Gas Pump Sign 01
+    400088: Gas Pump Top
+    400090: Gas Pump Top 01
+    400092: gd01
+    400094: gd02
+    400096: gd03
+    400098: gd04
+    400100: gd05
+    400102: gd06
+    400104: gd07
+    400106: gd08
+    400108: Glass01
+    400110: Glass02
+    400112: Glass03
+    400114: Glass04
+    400116: Glass05
+    400118: Glass06
+    400120: Glass07
+    400122: Glass08
+    400124: Glass09 plywood
+    400126: Grass building side
+    400128: Grass other side of building
+    400130: Grass02
+    400132: Grass03
+    400134: Grass04
+    400136: Grass05
+    400138: Grass06
+    400140: Grass07
+    400142: Grass08
+    400144: Grass09
+    400146: Grass10
+    400148: Grass100
+    400150: Grass101
+    400152: Grass102
+    400154: Grass11
+    400156: Grass12
+    400158: Grass13
+    400160: Grass14
+    400162: Grass15
+    400164: Grass153
+    400166: Grass154
+    400168: Grass16
+    400170: Grass17
+    400172: Grass18
+    400174: Grass19
+    400176: Grass20
+    400178: Grass21
+    400180: Grass22
+    400182: Grass23
+    400184: Grass24
+    400186: Grass25
+    400188: Grass26
+    400190: Grass27
+    400192: Grass28
+    400194: Grass29
+    400196: Grass30
+    400198: Grass31
+    400200: Grass32
+    400202: Grass33
+    400204: Grass34
+    400206: Grass35
+    400208: Grass36
+    400210: Grass37
+    400212: Grass38
+    400214: Grass39
+    400216: Grass40
+    400218: Grass41
+    400220: Grass42
+    400222: Grass43
+    400224: Grass44
+    400226: Grass45
+    400228: Grass46
+    400230: Grass47
+    400232: Grass48
+    400234: Grass49
+    400236: Grass50
+    400238: Grass51
+    400240: Grass52
+    400242: Grass53
+    400244: Grass54
+    400246: Grass55
+    400248: Grass56
+    400250: Grass57
+    400252: Grass58
+    400254: Grass59
+    400256: Grass60
+    400258: Grass61
+    400260: Grass62
+    400262: Grass63
+    400264: Grass64
+    400266: Grass65
+    400268: Grass66
+    400270: Grass67
+    400272: Grass68
+    400274: Grass69
+    400276: Grass70
+    400278: Grass71
+    400280: Grass72
+    400282: Grass73
+    400284: Grass74
+    400286: Grass75
+    400288: Grass76
+    400290: Grass77
+    400292: Grass78
+    400294: Grass79
+    400296: Grass80
+    400298: Grass81
+    400300: Grass82
+    400302: Grass83
+    400304: Grass84
+    400306: Grass85
+    400308: Grass86
+    400310: Grass87
+    400312: Grass88
+    400314: Grass89
+    400316: Grass90
+    400318: Grass91
+    400320: Grass92
+    400322: Grass93
+    400324: Grass94
+    400326: Grass95
+    400328: Grass96
+    400330: Grass97
+    400332: Grass98
+    400334: Grass99
+    400336: Ground
+    400338: Light Pole
+    400340: Light Pole Arm 01
+    400342: Light Pole Arm 02
+    400344: Light Pole Base
+    400346: Lights
+    400348: Lights 01
+    400350: Line for Awning
+    400352: Line01
+    400354: Line02
+    400356: Line03
+    400358: Main Light
+    400360: Oil Can
+    400362: Oil Can01
+    400364: Oil Can02
+    400366: Oil Can03
+    400368: Oil Can04
+    400370: Oil Disp Base
+    400372: Oil Disp Container
+    400374: Oil Disp Rack
+    400376: Oil Disp Side
+    400378: Oil Disp Side 01
+    400380: Parking
+    400382: Profile for Curbs
+    400384: Profile Island Path
+    400386: Road
+    400388: Roof_High
+    400390: Roof_Low
+    400392: //RootNode
+    400394: Shape for sheet metal
+    400396: Side Fill Light
+    400398: Sign Base
+    400400: Sign Lamp
+    400402: Sign Lamp Light
+    400404: Sign Last Gasp
+    400406: Sign Post
+    400408: Sign Post Hanger
+    400410: Sign Post Sphere
+    400412: Sketch Plan
+    400414: Sky
+    400416: Tire on Rack
+    400418: Tire on Rack01
+    400420: Tire on Rack02
+    400422: Tire Rack Bars
+    400424: Tire Rack Right
+    400426: Tire Rack Right01
+    400428: Transom Frame
+    400430: Tumbleweed01
+    400432: Tumbleweed02
+    400434: Water Tower Top
+    400436: Window Frame
+    2300000: Awning Frame 01
+    2300002: Awning Frame 02
+    2300004: Awning Frame 03
+    2300006: Awning Frame 04
+    2300008: Awning Frame 05
+    2300010: Awning Frame 06
+    2300012: Awning Sheet Metal 01
+    2300014: Awning Sheet Metal 02
+    2300016: Awning Sheet Metal 03
+    2300018: Awning Sheet Metal 04
+    2300020: Awning Sheet Metal 05
+    2300022: Bldg_Base
+    2300024: Box10
+    2300026: Box11
+    2300028: Box12
+    2300030: Box13
+    2300032: Box14
+    2300034: Box15
+    2300036: Box16
+    2300038: Box17
+    2300040: Box18
+    2300042: Box19
+    2300044: Box20
+    2300046: Box21
+    2300048: Box22
+    2300050: Box23
+    2300052: Box24
+    2300054: Box25
+    2300056: Building Walls
+    2300058: Cactus
+    2300060: Cactus01
+    2300062: Cactus02
+    2300064: Cactus03
+    2300066: Circle01
+    2300068: Door
+    2300070: Flashing
+    2300072: Gas Pump Base
+    2300074: Gas Pump Base 01
+    2300076: Gas Pump Island
+    2300078: Gas Pump Sign
+    2300080: Gas Pump Sign 01
+    2300082: Gas Pump Top
+    2300084: Gas Pump Top 01
+    2300086: gd01
+    2300088: gd02
+    2300090: gd03
+    2300092: gd04
+    2300094: gd05
+    2300096: gd06
+    2300098: gd07
+    2300100: gd08
+    2300102: Glass01
+    2300104: Glass02
+    2300106: Glass03
+    2300108: Glass04
+    2300110: Glass05
+    2300112: Glass06
+    2300114: Glass07
+    2300116: Glass08
+    2300118: Glass09 plywood
+    2300120: Grass building side
+    2300122: Grass02
+    2300124: Grass03
+    2300126: Grass04
+    2300128: Grass05
+    2300130: Grass06
+    2300132: Grass07
+    2300134: Grass08
+    2300136: Grass09
+    2300138: Grass10
+    2300140: Grass100
+    2300142: Grass101
+    2300144: Grass102
+    2300146: Grass11
+    2300148: Grass12
+    2300150: Grass13
+    2300152: Grass14
+    2300154: Grass15
+    2300156: Grass153
+    2300158: Grass154
+    2300160: Grass16
+    2300162: Grass17
+    2300164: Grass18
+    2300166: Grass19
+    2300168: Grass20
+    2300170: Grass21
+    2300172: Grass22
+    2300174: Grass23
+    2300176: Grass24
+    2300178: Grass25
+    2300180: Grass26
+    2300182: Grass27
+    2300184: Grass28
+    2300186: Grass29
+    2300188: Grass30
+    2300190: Grass31
+    2300192: Grass32
+    2300194: Grass33
+    2300196: Grass34
+    2300198: Grass35
+    2300200: Grass36
+    2300202: Grass37
+    2300204: Grass38
+    2300206: Grass39
+    2300208: Grass40
+    2300210: Grass41
+    2300212: Grass42
+    2300214: Grass43
+    2300216: Grass44
+    2300218: Grass45
+    2300220: Grass46
+    2300222: Grass47
+    2300224: Grass48
+    2300226: Grass49
+    2300228: Grass50
+    2300230: Grass51
+    2300232: Grass52
+    2300234: Grass53
+    2300236: Grass54
+    2300238: Grass55
+    2300240: Grass56
+    2300242: Grass57
+    2300244: Grass58
+    2300246: Grass59
+    2300248: Grass60
+    2300250: Grass61
+    2300252: Grass62
+    2300254: Grass63
+    2300256: Grass64
+    2300258: Grass65
+    2300260: Grass66
+    2300262: Grass67
+    2300264: Grass68
+    2300266: Grass69
+    2300268: Grass70
+    2300270: Grass71
+    2300272: Grass72
+    2300274: Grass73
+    2300276: Grass74
+    2300278: Grass75
+    2300280: Grass76
+    2300282: Grass77
+    2300284: Grass78
+    2300286: Grass79
+    2300288: Grass80
+    2300290: Grass81
+    2300292: Grass82
+    2300294: Grass83
+    2300296: Grass84
+    2300298: Grass85
+    2300300: Grass86
+    2300302: Grass87
+    2300304: Grass88
+    2300306: Grass89
+    2300308: Grass90
+    2300310: Grass91
+    2300312: Grass92
+    2300314: Grass93
+    2300316: Grass94
+    2300318: Grass95
+    2300320: Grass96
+    2300322: Grass97
+    2300324: Grass98
+    2300326: Grass99
+    2300328: Ground
+    2300330: Light Pole Arm 01
+    2300332: Light Pole Arm 02
+    2300334: Light Pole Base
+    2300336: Lights
+    2300338: Lights 01
+    2300340: Line01
+    2300342: Oil Can
+    2300344: Oil Can01
+    2300346: Oil Can02
+    2300348: Oil Can03
+    2300350: Oil Can04
+    2300352: Oil Disp Base
+    2300354: Oil Disp Container
+    2300356: Oil Disp Rack
+    2300358: Oil Disp Side
+    2300360: Oil Disp Side 01
+    2300362: Parking
+    2300364: Road
+    2300366: Roof_High
+    2300368: Roof_Low
+    2300370: Sign Base
+    2300372: Sign Lamp
+    2300374: Sign Last Gasp
+    2300376: Sign Post
+    2300378: Sign Post Hanger
+    2300380: Sign Post Sphere
+    2300382: Sky
+    2300384: Tire on Rack
+    2300386: Tire on Rack01
+    2300388: Tire on Rack02
+    2300390: Tire Rack Bars
+    2300392: Tire Rack Right
+    2300394: Tire Rack Right01
+    2300396: Transom Frame
+    2300398: Tumbleweed01
+    2300400: Tumbleweed02
+    2300402: Water Tower Top
+    2300404: Window Frame
+    3300000: Awning Frame 01
+    3300002: Awning Frame 02
+    3300004: Awning Frame 03
+    3300006: Awning Frame 04
+    3300008: Awning Frame 05
+    3300010: Awning Frame 06
+    3300012: Awning Sheet Metal 01
+    3300014: Awning Sheet Metal 02
+    3300016: Awning Sheet Metal 03
+    3300018: Awning Sheet Metal 04
+    3300020: Awning Sheet Metal 05
+    3300022: Bldg_Base
+    3300024: Box10
+    3300026: Box11
+    3300028: Box12
+    3300030: Box13
+    3300032: Box14
+    3300034: Box15
+    3300036: Box16
+    3300038: Box17
+    3300040: Box18
+    3300042: Box19
+    3300044: Box20
+    3300046: Box21
+    3300048: Box22
+    3300050: Box23
+    3300052: Box24
+    3300054: Box25
+    3300056: Building Walls
+    3300058: Cactus
+    3300060: Cactus01
+    3300062: Cactus02
+    3300064: Cactus03
+    3300066: Circle01
+    3300068: Door
+    3300070: Flashing
+    3300072: Gas Pump Base
+    3300074: Gas Pump Base 01
+    3300076: Gas Pump Island
+    3300078: Gas Pump Sign
+    3300080: Gas Pump Sign 01
+    3300082: Gas Pump Top
+    3300084: Gas Pump Top 01
+    3300086: gd01
+    3300088: gd02
+    3300090: gd03
+    3300092: gd04
+    3300094: gd05
+    3300096: gd06
+    3300098: gd07
+    3300100: gd08
+    3300102: Glass01
+    3300104: Glass02
+    3300106: Glass03
+    3300108: Glass04
+    3300110: Glass05
+    3300112: Glass06
+    3300114: Glass07
+    3300116: Glass08
+    3300118: Glass09 plywood
+    3300120: Grass building side
+    3300122: Grass02
+    3300124: Grass03
+    3300126: Grass04
+    3300128: Grass05
+    3300130: Grass06
+    3300132: Grass07
+    3300134: Grass08
+    3300136: Grass09
+    3300138: Grass10
+    3300140: Grass100
+    3300142: Grass101
+    3300144: Grass102
+    3300146: Grass11
+    3300148: Grass12
+    3300150: Grass13
+    3300152: Grass14
+    3300154: Grass15
+    3300156: Grass153
+    3300158: Grass154
+    3300160: Grass16
+    3300162: Grass17
+    3300164: Grass18
+    3300166: Grass19
+    3300168: Grass20
+    3300170: Grass21
+    3300172: Grass22
+    3300174: Grass23
+    3300176: Grass24
+    3300178: Grass25
+    3300180: Grass26
+    3300182: Grass27
+    3300184: Grass28
+    3300186: Grass29
+    3300188: Grass30
+    3300190: Grass31
+    3300192: Grass32
+    3300194: Grass33
+    3300196: Grass34
+    3300198: Grass35
+    3300200: Grass36
+    3300202: Grass37
+    3300204: Grass38
+    3300206: Grass39
+    3300208: Grass40
+    3300210: Grass41
+    3300212: Grass42
+    3300214: Grass43
+    3300216: Grass44
+    3300218: Grass45
+    3300220: Grass46
+    3300222: Grass47
+    3300224: Grass48
+    3300226: Grass49
+    3300228: Grass50
+    3300230: Grass51
+    3300232: Grass52
+    3300234: Grass53
+    3300236: Grass54
+    3300238: Grass55
+    3300240: Grass56
+    3300242: Grass57
+    3300244: Grass58
+    3300246: Grass59
+    3300248: Grass60
+    3300250: Grass61
+    3300252: Grass62
+    3300254: Grass63
+    3300256: Grass64
+    3300258: Grass65
+    3300260: Grass66
+    3300262: Grass67
+    3300264: Grass68
+    3300266: Grass69
+    3300268: Grass70
+    3300270: Grass71
+    3300272: Grass72
+    3300274: Grass73
+    3300276: Grass74
+    3300278: Grass75
+    3300280: Grass76
+    3300282: Grass77
+    3300284: Grass78
+    3300286: Grass79
+    3300288: Grass80
+    3300290: Grass81
+    3300292: Grass82
+    3300294: Grass83
+    3300296: Grass84
+    3300298: Grass85
+    3300300: Grass86
+    3300302: Grass87
+    3300304: Grass88
+    3300306: Grass89
+    3300308: Grass90
+    3300310: Grass91
+    3300312: Grass92
+    3300314: Grass93
+    3300316: Grass94
+    3300318: Grass95
+    3300320: Grass96
+    3300322: Grass97
+    3300324: Grass98
+    3300326: Grass99
+    3300328: Ground
+    3300330: Light Pole Arm 01
+    3300332: Light Pole Arm 02
+    3300334: Light Pole Base
+    3300336: Lights
+    3300338: Lights 01
+    3300340: Line01
+    3300342: Oil Can
+    3300344: Oil Can01
+    3300346: Oil Can02
+    3300348: Oil Can03
+    3300350: Oil Can04
+    3300352: Oil Disp Base
+    3300354: Oil Disp Container
+    3300356: Oil Disp Rack
+    3300358: Oil Disp Side
+    3300360: Oil Disp Side 01
+    3300362: Parking
+    3300364: Road
+    3300366: Roof_High
+    3300368: Roof_Low
+    3300370: Sign Base
+    3300372: Sign Lamp
+    3300374: Sign Last Gasp
+    3300376: Sign Post
+    3300378: Sign Post Hanger
+    3300380: Sign Post Sphere
+    3300382: Sky
+    3300384: Tire on Rack
+    3300386: Tire on Rack01
+    3300388: Tire on Rack02
+    3300390: Tire Rack Bars
+    3300392: Tire Rack Right
+    3300394: Tire Rack Right01
+    3300396: Transom Frame
+    3300398: Tumbleweed01
+    3300400: Tumbleweed02
+    3300402: Water Tower Top
+    3300404: Window Frame
+    4300000: Cactus
+    4300002: Parking
+    4300004: Tumbleweed02
+    4300006: Tumbleweed01
+    4300008: Cactus01
+    4300010: Lights
+    4300012: Light Pole Arm 02
+    4300014: Light Pole Arm 01
+    4300016: Lights 01
+    4300018: Light Pole Base
+    4300020: Cactus02
+    4300022: Cactus03
+    4300024: Gas Pump Island
+    4300026: Sign Base
+    4300028: Gas Pump Base
+    4300030: Gas Pump Top
+    4300032: Gas Pump Sign
+    4300034: Gas Pump Top 01
+    4300036: Gas Pump Base 01
+    4300038: Gas Pump Sign 01
+    4300040: Sign Post
+    4300042: Sign Post Hanger
+    4300044: Sign Post Sphere
+    4300046: Sign Last Gasp
+    4300048: Sign Lamp
+    4300050: Awning Frame 01
+    4300052: Awning Frame 02
+    4300054: Awning Frame 03
+    4300056: Awning Frame 04
+    4300058: Awning Frame 05
+    4300060: Awning Frame 06
+    4300062: Awning Sheet Metal 01
+    4300064: Awning Sheet Metal 02
+    4300066: Awning Sheet Metal 03
+    4300068: Awning Sheet Metal 04
+    4300070: Awning Sheet Metal 05
+    4300072: Flashing
+    4300074: Sky
+    4300076: Ground
+    4300078: Bldg_Base
+    4300080: Building Walls
+    4300082: Roof_High
+    4300084: Roof_Low
+    4300086: Door
+    4300088: Transom Frame
+    4300090: Window Frame
+    4300092: Oil Can
+    4300094: Oil Can01
+    4300096: Oil Can02
+    4300098: Oil Can03
+    4300100: Oil Can04
+    4300102: gd01
+    4300104: gd02
+    4300106: gd03
+    4300108: gd04
+    4300110: gd05
+    4300112: gd06
+    4300114: gd07
+    4300116: gd08
+    4300118: Glass01
+    4300120: Glass02
+    4300122: Glass03
+    4300124: Glass04
+    4300126: Glass05
+    4300128: Glass06
+    4300130: Glass07
+    4300132: Glass08
+    4300134: Glass09 plywood
+    4300136: Tire Rack Right
+    4300138: Tire Rack Bars
+    4300140: Tire on Rack
+    4300142: Tire on Rack01
+    4300144: Tire on Rack02
+    4300146: Tire Rack Right01
+    4300148: Water Tower Top
+    4300150: Line01
+    4300152: Circle01
+    4300154: Oil Disp Base
+    4300156: Oil Disp Container
+    4300158: Oil Disp Rack
+    4300160: Oil Disp Side
+    4300162: Oil Disp Side 01
+    4300164: Box10
+    4300166: Box11
+    4300168: Box12
+    4300170: Box13
+    4300172: Box14
+    4300174: Box15
+    4300176: Box16
+    4300178: Box17
+    4300180: Box18
+    4300182: Box19
+    4300184: Box20
+    4300186: Box21
+    4300188: Box22
+    4300190: Box23
+    4300192: Box24
+    4300194: Box25
+    4300196: Road
+    4300198: Grass building side
+    4300200: Grass02
+    4300202: Grass03
+    4300204: Grass04
+    4300206: Grass05
+    4300208: Grass06
+    4300210: Grass07
+    4300212: Grass08
+    4300214: Grass09
+    4300216: Grass10
+    4300218: Grass11
+    4300220: Grass12
+    4300222: Grass13
+    4300224: Grass14
+    4300226: Grass15
+    4300228: Grass16
+    4300230: Grass17
+    4300232: Grass18
+    4300234: Grass19
+    4300236: Grass20
+    4300238: Grass21
+    4300240: Grass22
+    4300242: Grass23
+    4300244: Grass24
+    4300246: Grass25
+    4300248: Grass26
+    4300250: Grass27
+    4300252: Grass28
+    4300254: Grass29
+    4300256: Grass30
+    4300258: Grass31
+    4300260: Grass32
+    4300262: Grass33
+    4300264: Grass34
+    4300266: Grass35
+    4300268: Grass36
+    4300270: Grass37
+    4300272: Grass38
+    4300274: Grass39
+    4300276: Grass40
+    4300278: Grass41
+    4300280: Grass42
+    4300282: Grass43
+    4300284: Grass44
+    4300286: Grass45
+    4300288: Grass46
+    4300290: Grass47
+    4300292: Grass48
+    4300294: Grass49
+    4300296: Grass50
+    4300298: Grass51
+    4300300: Grass52
+    4300302: Grass53
+    4300304: Grass54
+    4300306: Grass55
+    4300308: Grass56
+    4300310: Grass57
+    4300312: Grass58
+    4300314: Grass59
+    4300316: Grass60
+    4300318: Grass61
+    4300320: Grass62
+    4300322: Grass63
+    4300324: Grass64
+    4300326: Grass65
+    4300328: Grass66
+    4300330: Grass67
+    4300332: Grass68
+    4300334: Grass69
+    4300336: Grass70
+    4300338: Grass71
+    4300340: Grass72
+    4300342: Grass73
+    4300344: Grass74
+    4300346: Grass75
+    4300348: Grass76
+    4300350: Grass77
+    4300352: Grass78
+    4300354: Grass79
+    4300356: Grass80
+    4300358: Grass81
+    4300360: Grass82
+    4300362: Grass83
+    4300364: Grass84
+    4300366: Grass85
+    4300368: Grass86
+    4300370: Grass87
+    4300372: Grass88
+    4300374: Grass89
+    4300376: Grass90
+    4300378: Grass91
+    4300380: Grass92
+    4300382: Grass93
+    4300384: Grass94
+    4300386: Grass95
+    4300388: Grass96
+    4300390: Grass97
+    4300392: Grass98
+    4300394: Grass99
+    4300396: Grass100
+    4300398: Grass101
+    4300400: Grass102
+    4300402: Grass153
+    4300404: Grass154
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
